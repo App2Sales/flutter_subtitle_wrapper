@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:subtitle_wrapper_package/models/style/subtitle_style.dart';
 import 'package:subtitle_wrapper_package/subtitle_controller.dart';
 import 'package:subtitle_wrapper_package/subtitle_text_view.dart';
-import 'package:video_player/video_player.dart';
+import 'package:video_player_header/video_player_header.dart';
 
 class SubTitleWrapper extends StatelessWidget {
   final Widget videoChild;

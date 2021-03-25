@@ -3,7 +3,7 @@ import 'package:subtitle_wrapper_package/models/style/subtitle_style.dart';
 import 'package:subtitle_wrapper_package/models/subtitle.dart';
 import 'package:subtitle_wrapper_package/models/subtitles.dart';
 import 'package:subtitle_wrapper_package/subtitle_controller.dart';
-import 'package:video_player/video_player.dart';
+import 'package:video_player_header/video_player_header.dart';
 
 class SubtitleTextView extends StatefulWidget {
   final SubtitleController subtitleController;
@@ -27,7 +27,7 @@ class _SubtitleTextViewState extends State<SubtitleTextView> {
   Subtitle subtitle;
   Function listener;
   Subtitles subtitles;
-  
+
   _SubtitleTextViewState(this.videoPlayerController);
 
   @override
